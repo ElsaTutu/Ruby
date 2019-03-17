@@ -2,7 +2,8 @@
 puts "Choisissez un chiffre"
 i = gets.chomp.to_i
 
-i.times do |i|
+while i >= 0
 	puts "#{i}"
+	i -= 1
 end
 
