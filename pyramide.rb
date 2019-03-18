@@ -3,7 +3,7 @@ i = gets.chomp.to_i
 n = "#"
 f = 0
 e = " "
-d = 25
+d = i
 
 until f > i 
   puts "#{e*d}"+"#{n}#{n*f}"
@@ -12,4 +12,6 @@ until f > i
 if i > 25
 	break
 end
-end   
+end 
+
+
