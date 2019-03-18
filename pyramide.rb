@@ -3,7 +3,10 @@ i = gets.chomp.to_i
 n = "#"
 f = 0
 
-until f > i # Jusqu’à ce que n soit plus grand que 10, le code est exécuté.
+until f > i 
   puts "#{n}#{n*f}"
   f = f + 1
+if i > 25
+	break
+end
 end   
